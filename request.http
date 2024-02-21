@@ -1,0 +1,15 @@
+#### Create a movies
+POST http://localhost:4000/v1/movies
+Content-Type: application/json
+
+{
+   "title":"The Breakfast Club",
+   "year":1986,
+   "runtime":"96 mins",
+   "genres":[
+      "drama"
+   ]
+}
+
+### Get movies by ID
+GET http://localhost:4000/v1/movies/7
