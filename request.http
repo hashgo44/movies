@@ -1,3 +1,6 @@
+### Healthcheck
+GET http://localhost:4000/v1/healthcheck
+
 #### Create a movies
 POST http://localhost:4000/v1/movies
 Content-Type: application/json
@@ -15,18 +18,11 @@ Content-Type: application/json
 GET http://localhost:4000/v1/movies/7
 
 ### Udpate an user
-PUT  http://localhost:4000/v1/movies/7
+PATCH  http://localhost:4000/v1/movies/6
 Content-Type: application/json
 
 {
-   "title":"The Breakfast Club",
-   "year":1986,
-   "runtime":"96 mins",
-   "genres":[
-      "sci-fi",
-      "drama",
-      "adventure"
-   ]
+   "year": 2015
 }
 
 ### Delete movies by ID

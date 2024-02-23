@@ -30,7 +30,7 @@ func (app *application) writeJSON(w http.ResponseWriter, status int, data envelo
 		return err
 	}
 
-	// Ajoutez une nouvelle ligne pour faciliter la visualisation dans le terminal.
+	// Aller a la ligne pour faciliter la visualisation dans le terminal.
 	js = append(js, '\n')
 
 	for key, value := range headers {
