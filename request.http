@@ -15,7 +15,7 @@ Content-Type: application/json
 }
 
 ### Get movies by ID
-GET http://localhost:4000/v1/movies/7
+GET http://localhost:4000/v1/movies/8
 
 ### Udpate an user
 PATCH  http://localhost:4000/v1/movies/6
