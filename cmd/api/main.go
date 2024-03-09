@@ -82,7 +82,7 @@ func main() {
 
 	logger.Info("starting server", "addr", srv.Addr, "env", cfg.env)
 
-	err = srv.ListenAndServe()
+	err = app.serve()
 	logger.Error(err.Error())
 	os.Exit(1)
 }
