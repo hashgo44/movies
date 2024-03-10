@@ -1,6 +1,3 @@
-### Healthcheck
-GET http://localhost:4000/v1/healthcheck
-
 ### Get all movies
 GET http://localhost:4000/v1/movies
 
